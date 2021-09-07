@@ -71,33 +71,33 @@
                                         <div class="card">
                                             <form id="signup-form">
                                                 <h2 class="card-title">Ingresas tus datos personales</h2>
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2">
                                                     <input type="text" id="signup-Primer Nombre" class="form-control"
-                                                        placeholder="Primer Nombre" required>
+                                                        placeholder="Primer Nombre" required style="width: 200px;">
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group mb-2">
                                                     <input type="text" id="signup-Segundo Nombre" class="form-control"
-                                                        placeholder="Segundo Nombre" required>
+                                                        placeholder="Segundo Nombre" required style="width: 200px;">
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2">
                                                     <input type="text" id="signup-Apellido" class="form-control"
-                                                        placeholder="Apellido" required>
+                                                        placeholder="Apellido" required style="width: 250px; font-size: medium;" >
                                                 </div>
 
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2" style="font-size: medium;">
                                                     <label for="Dia">Fecha de nacimiento</label>
                                                     <input type="date" name="salida" id="">
                                                 </div>
 
 
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2" style="font-size: medium;">
                                                     <label for="Sexo">Sexo</label>
                                                     <select name="Sexo" id="sexo">
                                                         <option value="Sexo">Masculino</option>
                                                         <option value="Sexo">Femenino</option>
                                                     </select>
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2" style="font-size: medium;">
                                                     <label for="Nacionalidad">Nacionalidad</label>
                                                     <select name="Nacionalidad" id="nacionalidad">
                                                         <option value="Nacionalidad">Argentina</option>
@@ -113,31 +113,38 @@
                                                     </select>
                                                 </div>
 
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2" >
                                                     <input type="text" id="signup-documento" class="form-control"
-                                                        placeholder="DNI" required>
+                                                        placeholder="DNI" required style="width: 100px;">
                                                 </div>
 
 
-                                                <h3 class="card-title">Datos de contacto</h3>
+                                                <h3 class="card-title" style="font-size: medium;">Datos de contacto</h3>
 
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2">
                                                     <input type="text" id="signup-email" class="form-control"
-                                                        placeholder="Email" required>
+                                                        placeholder="Email" required style="width: 200px;">
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group; mb-2" >
                                                     <input type="text" id="signup-confirmacion de email"
                                                         class="form-control" placeholder="Confirmacion de email"
-                                                        required>
+                                                        required style="width: 200px;">
                                                 </div>
-                                                <div class="form-group">
-                                                    <input type="text" id="signup-telcodarea" class="form-control"
-                                                        placeholder="Tel. Codigo área" required>
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" id="signup-telnumero" class="form-control"
-                                                        placeholder="Tel número" required>
-                                                </div>
+                                                
+                                                <div class="mb-2 row" style="font-size: medium;">
+                                                    <label for="inputCode" class="col-sm-2 col-form-label" >Codigo de Area</label>
+                                                    <div class="col-sm-10">
+                                                      <input type="text" class="form-control" id="inputCode" style="width: 60px;">
+                                                    </div>
+                                                  </div>
+                                                <div class="mb-3 row" style="font-size: medium;">
+                                                    
+                                                    <div class="col-sm-10">
+                                                      <input type="password" class="form-control"  placeholder="Numero de telefono">
+                                                    </div>
+                                                  </div>
+
+
         </header>
     </div>
 
